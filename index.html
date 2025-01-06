@@ -15,11 +15,16 @@
     />
   </head>
   <body>
-    <header>
-      <div class="container even-columns">
-        <h1>Teste1</h1>
-        <h1>Teste2</h1>
-      </div>
-    </header>
+    <div class="flex gap-1">
+      <a href="" class="btn btn-sm">Label</a>
+      <a href="" class="btn btn-md">Label</a>
+      <button href="#" class="btn btn-lg">Label</button>
+    </div>
+
+    <div class="flex gap-1">
+      <a aria-label="Label" href="#" class="btn btn-sm gradient-button"></a>
+      <a aria-label="Label" href="#" class="btn btn-md"></a>
+      <button aria-label="Label" href="#" class="btn btn-lg"></button>
+    </div>
   </body>
 </html>
