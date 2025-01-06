@@ -50,6 +50,10 @@
   display: grid;
 }
 
+.none {
+  display: none;
+}
+
 @media (width >= 80em) {
   .container {
     --max-width: 80rem;
